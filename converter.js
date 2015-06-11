@@ -32,7 +32,9 @@ for (var i=0; i<numberOfWorkouts; i++){
 
 };
 
-// deep(workouts);
+workouts = JSON.stringify(workouts);
+
+deep(workouts);
 
 
 /****************************** Sets Blob ******************************/
@@ -150,5 +152,7 @@ for (var i=0; i<numberOfWorkouts; i++){
 
 };
 
-deep(sets);
+// sets = JSON.stringify(sets);
+
+// deep(sets);
 
