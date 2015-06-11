@@ -1,0 +1,126 @@
+{
+    "_id": "7ygtDQER59bygP2o3",
+    "createdAt": {
+        "$date": 1433949387984
+    },
+    "customerId": "cus_6OyuVvYm7GOre1",
+    "emails": [
+        {
+            "address": "first_last@gmail.com"
+        }
+    ],
+    "profile": {
+        "dashboardSession": {
+            "endTime": {
+                "$date": 1433949387503
+            },
+            "group": null,
+            "metric": "Yards",
+            "startTime": {
+                "$date": 1431443787503
+            }
+        },
+        "dashboardSetup": [
+            {
+                "active": true,
+                "widgetId": "yardsChart",
+                "x": 0,
+                "y": 0
+            },
+            {
+                "active": true,
+                "widgetId": "dayChart",
+                "x": 0,
+                "y": 2
+            },
+            {
+                "active": true,
+                "widgetId": "intensityChart",
+                "x": 0,
+                "y": 1
+            },
+            {
+                "active": true,
+                "widgetId": "strokeChart",
+                "x": 1,
+                "y": 1
+            },
+            {
+                "active": true,
+                "widgetId": "typeChart",
+                "x": 2,
+                "y": 1
+            },
+            {
+                "active": true,
+                "widgetId": "widgetSummary",
+                "x": 2,
+                "y": 0
+            }
+        ],
+        "email": "first_last@gmail.com",
+        "freeTrial": true,
+        "level": "normal",
+        "newsLetter": true,
+        "paymentPlan": {
+            "amount": "8",
+            "subscription": {
+                "id": "sub_6OyudaVPZzVQQN",
+                "payment": {
+                    "card": {
+                        "expMonth": null,
+                        "expYear": null,
+                        "lastFour": null,
+                        "type": null
+                    },
+                    "nextPaymentDue": 1436541404
+                },
+                "plan": {
+                    "id": "Partner",
+                    "name": "Partner",
+                    "used": 0
+                },
+                "start": 1433949404,
+                "status": "trialing",
+                "trial_end": 1436541404
+            }
+        },
+        "role": "coach",
+        "tooltips": true
+    },
+    "services": {
+        "password": {
+            "bcrypt": "$2a$10$ZZ4GYipRJK8FHBtsn66TL.7NKJczcWfswuzNduUZS3UzfWD77GAyq"
+        },
+        "resume": {
+            "loginTokens": [
+                {
+                    "hashedToken": "ReutIpTK8BvDI5NMg5ut+UpKhlbDpK3+NmgtPKEEYAA=",
+                    "when": {
+                        "$date": 1433949403546
+                    }
+                }
+            ]
+        }
+    },
+    "subscription": {
+        "id": "sub_6OyudaVPZzVQQN",
+        "payment": {
+            "card": {
+                "expMonth": null,
+                "expYear": null,
+                "lastFour": null,
+                "type": null
+            },
+            "nextPaymentDue": 1436541404
+        },
+        "plan": {
+            "id": "Partner",
+            "name": "Partner",
+            "used": 0
+        },
+        "start": 1433949404,
+        "status": "trialing",
+        "trial_end": 1436541404
+    }
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "SitbLEprqDKvXwHM3",
+        "course": {
+            "_id": 1,
+            "active": true,
+            "distance": 25,
+            "metric": "Yards"
+        },
+        "date_time": {
+            "$date": 1423222200000
+        },
+        "num_sets": 6,
+        "_id": "SitbLEprqDKvXwHM3",
+        "course": {
+            "_id": 1,
+            "active": true,
+            "distance": 25,
+            "metric": "Yards"
+        },
+        "date_time": {
+            "$date": 1423222200000
+        },
+        "num_sets": 6,
+        "sets": [
+              {
+                "_id": 1,
+                "loop": 2,
+                "setGroups": [
+                    {
+                        "_id": 1,
+                        "description": "Paddles",
+                        "distance": 150,
+                        "energy_zone": 3,
+                        "groups": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "interval_min": 2,
+                        "interval_sec": 20,
+                        "repetitions": 4,
+                        "stroke": 2,
+                        "type": 3
+                    },
+                    {
+                        "_id": 2,
+                        "description": "100 free 100 back - drills",
+                        "distance": 200,
+                        "energy_zone": 2,
+                        "groups": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "interval_min": 1,
+                        "interval_sec": 0,
+                        "repetitions": 1,
+                        "stroke": 8,
+                        "type": 4
+                    }
+                ]
+              },
+              {
+                "_id": 2,
+                "loop": 1,
+                "setGroups": [
+                    {
+                        "_id": 1,
+                        "description": "50 free drill 50 stroke drill",
+                        "distance": 50,
+                        "energy_zone": 2,
+                        "groups": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "interval_min": 0,
+                        "interval_sec": 50,
+                        "repetitions": 8,
+                        "stroke": 8,
+                        "type": 4
+                    }
+                ]
+              }
+            ]
+}

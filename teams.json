@@ -1,0 +1,80 @@
+[
+    {
+        "_id": "sdhqpSber5o5N6Ckd",
+        "active": true,
+        "coaches": [
+            "Spb5WHAYSzSnpXZnR"
+        ],
+        "createdAt": {
+            "$date": 1433949388253
+        },
+        "groups": [
+            {
+                "_id": 1,
+                "abbr": "DIS",
+                "active": true,
+                "name": "Distance"
+            },
+            {
+                "_id": 2,
+                "abbr": "MID",
+                "active": true,
+                "name": "Mid-Distance"
+            },
+            {
+                "_id": 3,
+                "abbr": "SPR",
+                "active": true,
+                "name": "Sprint"
+            }
+        ],
+        "groups_count": 4,
+        "name": "Example Team",
+        "practices": [
+            "SitbLEprqDKvXwHM3",
+            "izWNHABdmPY7udpRD",
+            "72rZTgpf8iYnKCg9B",
+            "76W9khcdmPPELxLw8",
+            "7DEjZxoED33R8fYYC",
+            "WnRE92iv8eS7FxPRh",
+            "egJ9oR8gGthxc7Q8Z",
+            "phYKhLczpZxTq3fJx",
+            "odCxjapvbj9fkvzP5",
+            "rudwpGJHqquvBaWK5",
+            "mzo9LuZHxMd8bCehp",
+            "zaha88yLgn3R4MtaX",
+            "LATT8H79WnfgYd8d5",
+            "5aq9uTS5E5EAyXvTa",
+            "ccxefBSsB5jEw9qwG",
+            "BgdcvMgGa34Sy59BJ",
+            "352NfHNaiLhgznuXq",
+            "Pzhpw9auanJhhmRGW",
+            "9tmB3Z5QafydZkXDs",
+            "Jmw8jH25Wh7aZZt3g",
+            "95nsD8eEc7dRLG7Mj",
+            "yYLJ276bPSEdSnjgz",
+            "a98yKSLyPhorj5udE",
+            "WurrpPPsrJYGhSfkT",
+            "kWNRans56Ee9RwYfv",
+            "WJ3AKu27PK3tKxwZx",
+            "RXXb3SyDwSbGBFCaB",
+            "E4dvneboes8DCYPyM",
+            "4wNuKTdD2pK2Qr8rT",
+            "EH7qEhSagxTku5kwK",
+            "k54A2bXEPHJpsFGR5",
+            "D9wXW8Ha2vuPJP4pf",
+            "34Aiz8XBdQYarh4Zd",
+            "xXEcsKNYZhhGh5eyH",
+            "t3ZyXP57tAH6iwBeE",
+            "jThxeFxYRwz4xkYc7",
+            "inBqncRPp8BDECJa7",
+            "ZR52Lzsgh5tWGCxLh",
+            "DF5iDTFeDETNiT64s",
+            "S6Pz6NASk9Gp6SeL3",
+            "QwuFoqzxGJfN5wZBJ"
+        ],
+        "timestamp": {
+            "$date": 1433949388253
+        }
+    }
+]

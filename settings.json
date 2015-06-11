@@ -1,0 +1,322 @@
+{
+  "public": {
+    "plans": [
+      {
+        "name": "Partner",
+        "amount": {
+          "cents": 800,
+          "usd": "8"
+        },
+        "app_name" : "Partner",
+        "interval": "month",
+        "description": "All standard benefits plus help spread the word",
+        "featuresPartner": "Must link to commitswimming.com from your site"
+      },    
+      {
+       "name": "Standard",
+        "amount": {
+          "cents": 1200,
+          "usd": "12"
+        },
+        "app_name" : "Standard",
+        "interval": "month",
+        "description": "Track, access and analyze your training",
+        "features": [
+          "Enter unlimited teams and groups into the platform",
+          "100% Customizable practice writing with your own stroke, type and intensity definitions",
+          "Write an unlimited number of practices for your teams",
+          "Commit will load in your historical practices from Hy-Tek",
+          "Easily access all of your practices organized by date and groups",
+          "Visualize your training using the Commit dashboard",
+          "Slice and dice your data by strokes, types, intensity levels, and days of the week",
+          "Customize your dashboard with the widgets you find most useful"
+        ]        
+      }
+    ],
+    "plansNoTrial": [
+      {
+        "name": "Standard - No Trial",
+        "amount": {
+          "cents": 1200,
+          "usd": "12"
+        },
+        "app_name" : "Standard",
+        "interval": "month",
+        "description": "Track, access and analyze your training"     
+      },    
+      {
+        "name": "Partner - No Trial",
+        "amount": {
+          "cents": 800,
+          "usd": "8"
+        },
+        "app_name" : "Partner",
+        "interval": "month",
+        "description": "All standard benefits plus help spread the word",
+        "featuresPartner": "Must link to commitswimming.com from your site"
+      }
+    ],
+    "stripe": {
+      "testPublishableKey": "pk_test_BYeBKR1NIkxooV7ppZNmhmdK",
+      "livePublishableKey": "pk_live_mLGDgEJ5ThOb22cAhy7Bi1sT"
+    },
+    "usa_energy_zones": [
+      {
+        "title": "Recovery (REC)"
+      },    
+      {
+        "title": "Endurance 1 (EN1)"
+      },
+      {
+        "title": "Endurance 2 (EN2)"
+      },
+      {
+        "title": "Endurance 3 (EN3)"
+      }, 
+      {
+        "title": "Sprint 1 (SP1)"
+      },
+      {
+        "title": "Sprint 2 (SP2)"
+      },
+      {
+        "title": "Sprint 3 (SP3)"
+      }                
+    ],
+    "default_energy_zones" : [
+      {
+        "_id" : 1,
+        "name": "REC",
+        "usa_zone": "Recovery (REC)",
+        "active" : true
+      },
+      {
+        "_id" : 2,
+        "name": "EN1",
+        "usa_zone": "Endurance 1 (EN1)",
+        "active" : true
+      },          
+      {
+        "_id" : 3,
+        "name": "EN2",
+        "usa_zone": "Endurance 2 (EN2)",
+        "active" : true
+      },
+      {
+        "_id" : 4,
+        "name": "EN3",
+        "usa_zone": "Endurance 3 (EN3)",
+        "active" : true
+      },
+      {
+        "_id" : 5,
+        "name": "SP1",
+        "usa_zone": "Sprint 1 (SP1)",
+        "active" : true
+      },
+      {
+        "_id" : 6,
+        "name": "SP2",
+        "usa_zone": "Sprint 2 (SP2)",
+        "active" : true
+      },
+      {
+        "_id" : 7,
+        "name": "SP3",
+        "usa_zone": "Sprint 3 (SP3)",
+        "active" : true
+      }
+    ],
+    "energy_zones_count" : 8, 
+    "default_courses":[
+      { "_id" : 1,
+        "distance": 25,
+        "metric": "Yards",
+        "active" : true
+      },
+      {
+        "_id" : 2,
+        "distance": 25,
+        "metric": "Meters",
+        "active" : true
+      },
+      {
+        "_id" : 3,
+        "distance": 50,
+        "metric": "Meters",
+        "active" : true
+      }      
+    ],
+    "courses_count" : 4, 
+    "default_strokes": [
+    {
+      "_id" : 1,
+      "abbr" : "BK",
+      "name" : "Back",
+      "active" : true 
+    },
+    {
+      "_id" : 2,
+      "abbr" : "Fr",
+      "name" : "Free",
+      "active" : true 
+    },
+    {
+      "_id" : 3,
+      "abbr" : "Fl",
+      "name" : "Fly",
+      "active" : true 
+    },
+    {
+      "_id" : 4,
+      "abbr" : "BR",
+      "name" : "Breast",
+      "active" : true 
+    },
+    {
+      "_id" : 5,
+      "abbr" : "IM",
+      "name" : "IM",
+      "active" : true 
+    },
+    {
+      "_id" : 6,
+      "abbr" : "MX",
+      "name" : "Mix",
+      "active" : true 
+    }   
+    ],
+    "strokes_count": 7,
+    "default_types": [
+    {
+      "_id" : 1,
+      "abbr" : "S",
+      "name" : "Swim",
+      "active" : true 
+    },
+    {
+      "_id" : 2,
+      "abbr" : "K",
+      "name" : "Kick",
+      "active" : true 
+    },
+    {
+      "_id" : 3,
+      "abbr" : "P",
+      "name" : "Pull",
+      "active" : true 
+    },
+    {
+      "_id" : 4,
+      "abbr" : "MX",
+      "name" : "Mix",
+      "active" : true 
+    },
+    {
+      "_id" : 5,
+      "abbr" : "DL",
+      "name" : "Dryland",
+      "active" : true 
+    }         
+    ],
+    "types_count": 6,
+    "dashboard_serialization": [
+      {
+        "widgetId": "yardsChart",
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 1,
+        "chartId": "week-bar",
+        "function": "draw_week_bar",
+        "title": "Yards by Week",
+        "active": true
+        
+      },
+      {
+        "widgetId": "dayChart",
+        "x": 0,
+        "y": 2,
+        "width": 1,
+        "height": 1,
+        "chartId": "day-row",
+        "function": "draw_day_row",
+        "title": "Yards by Day",        
+        "active": true
+
+      },    
+      {
+        "widgetId": "intensityChart",
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1,
+        "chartId": "intensity-pie",
+        "function": "draw_intensity_pie",
+        "title": "Yards by Intensity",        
+        "active": true
+      },
+      {
+        "widgetId": "strokeChart",
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1,
+        "chartId": "stroke-pie",
+        "function": "draw_stroke_pie",
+        "title": "Yards by Stroke",        
+        "active": true
+      },
+      {
+        "widgetId": "typeChart",
+        "x": 2,
+        "y": 1,
+        "width": 1,
+        "height": 1,
+        "chartId": "type-pie",
+        "function": "draw_type_pie",
+        "title": "Yards by Type",        
+        "active": true
+      },
+      {
+        "widgetId": "widgetSummary",
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "chartId": "widget-summary",
+        "function": "draw_widget_summary",
+        "title": "Dashboard Summary",
+        "active": true
+      }
+    ],
+    "supported_browsers": [
+      {
+        "name": "Chrome",
+        "min_version": 0 
+      },
+      {
+        "name": "Safari",
+        "min_version": 0
+      },
+      {
+        "name": "Firefox",
+        "min_version": 0
+      },
+      {
+        "name": "Explorer",
+        "min_version": 10
+      },
+      {
+        "name": "Mozilla",
+        "min_version": 10
+      }                          
+    ]
+  },
+  "private": {
+    "stripe": {
+      "testSecretKey": "sk_test_vmPyWZjnyHOkYBhvZTCcgn0A",
+      "liveSecretKey": "sk_live_c4XbyaS0r4uuzv1SbCAywkKl"
+    }
+  }
+}

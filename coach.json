@@ -1,0 +1,175 @@
+{
+    "_id": "Spb5WHAYSzSnpXZnR",
+    "courses": [
+        {
+            "_id": 1,
+            "active": true,
+            "distance": 25,
+            "metric": "Yards"
+        },
+        {
+            "_id": 2,
+            "active": true,
+            "distance": 25,
+            "metric": "Meters"
+        },
+        {
+            "_id": 3,
+            "active": true,
+            "distance": 50,
+            "metric": "Meters"
+        }
+    ],
+    "courses_count": 4,
+    "createdAt": {
+        "$date": 1433949387985
+    },
+    "energy_zones": [
+        {
+            "_id": 1,
+            "active": true,
+            "name": "REC",
+            "usa_zone": "Recovery (REC)"
+        },
+        {
+            "_id": 2,
+            "active": true,
+            "name": "EN1",
+            "usa_zone": "Endurance 1 (EN1)"
+        },
+        {
+            "_id": 3,
+            "active": true,
+            "name": "EN2",
+            "usa_zone": "Endurance 2 (EN2)"
+        },
+        {
+            "_id": 4,
+            "active": true,
+            "name": "EN3",
+            "usa_zone": "Endurance 3 (EN3)"
+        },
+        {
+            "_id": 5,
+            "active": true,
+            "name": "SP1",
+            "usa_zone": "Sprint 1 (SP1)"
+        },
+        {
+            "_id": 6,
+            "active": true,
+            "name": "SP2",
+            "usa_zone": "Sprint 2 (SP2)"
+        },
+        {
+            "_id": 7,
+            "active": true,
+            "name": "SP3",
+            "usa_zone": "Sprint 3 (SP3)"
+        }
+    ],
+    "energy_zones_count": 8,
+    "strokes": [
+        {
+            "_id": 1,
+            "abbr": "C",
+            "active": true,
+            "name": "Choice"
+        },
+        {
+            "_id": 2,
+            "abbr": "FR",
+            "active": true,
+            "name": "Freestyle"
+        },
+        {
+            "_id": 3,
+            "abbr": "STK",
+            "active": true,
+            "name": "Stroke"
+        },
+        {
+            "_id": 4,
+            "abbr": "FLY",
+            "active": true,
+            "name": "Butterfly"
+        },
+        {
+            "_id": 5,
+            "abbr": "IM",
+            "active": true,
+            "name": "IM"
+        },
+        {
+            "_id": 6,
+            "abbr": "BR",
+            "active": true,
+            "name": "Breaststroke"
+        },
+        {
+            "_id": 7,
+            "abbr": "BK",
+            "active": true,
+            "name": "Backstroke"
+        },
+        {
+            "_id": 8,
+            "abbr": "MIX",
+            "active": true,
+            "name": "Mix"
+        },
+        {
+            "_id": 9,
+            "abbr": "DRY",
+            "active": true,
+            "name": "Dry"
+        }
+    ],
+    "strokes_count": 10,
+    "teams": [
+        "sdhqpSber5o5N6Ckd"
+    ],
+    "timestamp": {
+        "$date": 1433949387985
+    },
+    "types": [
+        {
+            "_id": 1,
+            "abbr": "S",
+            "active": true,
+            "name": "Swim"
+        },
+        {
+            "_id": 2,
+            "abbr": "K",
+            "active": true,
+            "name": "Kick"
+        },
+        {
+            "_id": 3,
+            "abbr": "P",
+            "active": true,
+            "name": "Pull"
+        },
+        {
+            "_id": 4,
+            "abbr": "D",
+            "active": true,
+            "name": "Drill"
+        },
+        {
+            "_id": 5,
+            "abbr": "MIX",
+            "active": true,
+            "name": "Mix"
+        },
+        {
+            "_id": 6,
+            "abbr": "DRY",
+            "active": true,
+            "name": "Dry"
+        }
+    ],
+    "types_count": 7,
+    "user_id": "7ygtDQER59bygP2o3"
+}
