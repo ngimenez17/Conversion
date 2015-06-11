@@ -47,15 +47,13 @@ for (var i=0; i<numberOfWorkouts; i++){
     var loop = data_object[i].sets[j].loop;
     var groups = data_object[i].sets[j].setGroups[0].groups;
 
-    var number0fSetGroups = data_object[i].sets[j].setGroups.length;
-
     // Loop over setGroups to form innerSets
+
+    var number0fSetGroups = data_object[i].sets[j].setGroups.length;
 
     var innerSets = [];
 
     for(var k=0; k<number0fSetGroups; k++){
-
-      //What happens when interval_min === null?
 
       var interval_min = data_object[i].sets[j].setGroups[k].interval_min * 60;
       var interval_sec = data_object[i].sets[j].setGroups[k].interval_sec;
