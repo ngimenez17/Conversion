@@ -32,7 +32,7 @@ for (var i=0; i<numberOfWorkouts; i++){
 
 };
 
-workouts = JSON.stringify(workouts);
+// workouts = JSON.stringify(workouts);
 
 deep(workouts);
 
